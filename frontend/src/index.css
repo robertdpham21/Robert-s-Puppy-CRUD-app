@@ -1,0 +1,104 @@
+   #txt-red {
+       color:red;
+   }
+
+.body-container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.body-container h2 {
+  color: #4a90d9;
+}
+
+.add-btn {
+  background-color: #4a90d9;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.form-container {
+  background-color: #f0f4ff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 400px;
+}
+
+.form-container input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.cancel-btn {
+  background-color: #aaa;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.puppy-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.puppy-table thead tr {
+  background-color: #4a90d9;
+  color: white;
+}
+
+.puppy-table th {
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.puppy-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.puppy-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.edit-btn {
+  background-color: #f0a500;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
